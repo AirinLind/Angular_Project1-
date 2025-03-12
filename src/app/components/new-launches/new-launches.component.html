@@ -1,0 +1,27 @@
+<h2 class="title">New Launches</h2>
+<div class="new-launches">
+    <div class="launch-container">
+        <button class="nav-button left">&lt;</button>
+        <div class="product-images">
+            <img [src]="headphones6" class="product-image" alt="Product Image" />
+            <img [src]="headphones7" class="product-image" alt="Product Image" />
+        </div>
+        <div class="product-info">
+            <h2 class="product-title">Airdrop 500 Anc</h2>
+            <p class="product-description">
+                Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a product... Read More
+            </p>
+            <p class="price">Price : <span class="price-value">$45.99</span></p>
+            <div class="color-options">
+                <span class="color-circle" (click)="selectColor('black')"></span>
+                <span class="color-circle" (click)="selectColor('yellow')"></span>
+                <span class="color-circle" (click)="selectColor('blue')"></span>
+            </div>
+            <div class="actions">
+                <button class="add-to-cart">Add to cart</button>
+                <button class="explore-more">Explore More</button>
+            </div>
+        </div>
+        <button class="nav-button right">&gt;</button>
+    </div>
+</div>
